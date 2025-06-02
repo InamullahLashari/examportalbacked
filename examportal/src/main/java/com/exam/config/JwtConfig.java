@@ -15,6 +15,7 @@ public class JwtConfig {
     private String jwtSecret;
   //The @Value annotations in your JwtConfig class are reading 
   	//values from the application.properties file you've shown. 
+	 // just chcek for github
     @Value("${app.jwt.expirationMs}")
     private int jwtExpirationMs;
     
